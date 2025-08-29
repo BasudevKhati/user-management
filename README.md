@@ -78,35 +78,25 @@ Axios – HTTP requests
 TailwindCSS – Utility-first styling (for toast and custom styles)
 
 📂 Project Structure
-src/
+user-management/
 ├── app/
 │ ├── users/ # User List + Detail pages
-│ ├── components/ # Reusable UI components
-│ ├── hooks/ # Custom hooks
-│ ├── utils/ # Helper functions
-│ └── types/ # TypeScript types
-├── services/ # API services
-└── ...
+├── lib/ # API services
+│── components/ # Reusable UI components
+│── types/ # TypeScript types
+|-....
 
 ⚡ Getting Started
 
 1. Clone the Repository
    git clone https://github.com/your-username/user-management-app.git
-   cd user-management-app
+   cd user-management
 
 2. Install Dependencies
-   npm install
-
-# or
-
-yarn install
+   pnpm install
 
 3. Run Development Server
-   npm run dev
-
-# or
-
-yarn dev
+   pnpm dev
 
 App will be running at http://localhost:3000
 
@@ -120,17 +110,16 @@ vercel deploy
 
 📸 Screenshots
 User List – Table View
+![alt text](image.png)
 
 User List – Card View
+![alt text](image-1.png)
 
 User Detail Page
+![alt text](image-2.png)
 
 Add User Modal
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repo and submit a PR.
+![alt text](image-3.png)
 
 📜 License
-
 This project is licensed under the MIT License.
