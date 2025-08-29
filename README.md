@@ -1,12 +1,10 @@
 User Management App
 
 A simple, responsive User Management Application built with Next.js, Semantic UI React, and Tanstack Query.
-The app allows users to view, search, and manage user data from JSONPlaceholder API
-.
+The app allows users to view, search, and manage user data from JSONPlaceholder API.
 
 🚀 Live Demo
-
-👉 View Live on Vercel
+👉 [View Live on Vercel](https://user-management-five-taupe.vercel.app/)
 
 📌 Objective
 
